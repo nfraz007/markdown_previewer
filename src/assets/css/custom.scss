@@ -49,6 +49,11 @@ body, html {
         font-style: italic;
     }
 
+    pre {
+        border: 1px solid $border;
+        border-radius: 2px;
+    }
+
     li {
         padding-left: 10px;
         margin-left: 20px;

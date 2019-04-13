@@ -24,7 +24,7 @@ export default {
   name: 'Markdown',
   data() {
     return {
-      markdown: "# h1 heading\n## h2 heading\n### h3 heading\n#### h4 heading\n##### h5 heading\n###### h6 heading\n **bold**\n *italic*\n* list 1\n* list 2\n> quatation\nthis is link [my portfolio](http://nfraz.co.nf)\n`this is single line code`\n```\nthis is multiline code\nline 2\n```"
+      markdown: "# h1 heading\n## h2 heading\n### h3 heading\n#### h4 heading\n##### h5 heading\n###### h6 heading\n **bold**\n *italic*\n* list 1\n* list 2\n> quatation\nthis is link [my portfolio](http://nfraz.co.nf)\n`this is single line code`\n```\nthis is multiline code\nline 2\n```\n"
     }
   }
 }
