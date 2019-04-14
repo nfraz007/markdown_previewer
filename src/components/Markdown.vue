@@ -26,7 +26,7 @@ export default {
     return {
       words: 0,
       characters: 0,
-      markdown: (localStorage.markdown) ? localStorage.markdown : "# h1 heading\n## h2 heading\n### h3 heading\n#### h4 heading\n##### h5 heading\n###### h6 heading\n **bold**\n *italic*\n* list 1\n* list 2\n> quatation\nthis is link [my portfolio](http://nfraz.co.nf)\nthis is image ![random_image](https://picsum.photos/500/200)\n`this is single line code`\n```\nthis is multiline code\nline 2\n```\n"
+      markdown: (localStorage.markdown) ? localStorage.markdown : "# h1 heading\n## h2 heading\n### h3 heading\n#### h4 heading\n##### h5 heading\n###### h6 heading\n **bold**\n *italic*\n* list 1\n* list 2\n> quatation\nthis is link [my portfolio](http://nfraz.co.nf)\nthis is image ![random_image](https://picsum.photos/500/200)\n`this is single line code`\n\n```\nthis is multiline code\nline 2\n```\n"
     }
   },
   mounted() {
