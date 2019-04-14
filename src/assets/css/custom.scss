@@ -51,12 +51,14 @@ body, html {
 
     pre {
         border: 1px solid $border;
-        border-radius: 2px;
-    }
+        border-radius: 5px;
+        padding: 5px;
 
-    li {
-        padding-left: 10px;
-        margin-left: 20px;
+        p{
+            &:nth-child(odd){
+                background: $grey-light;
+            }
+        }
     }
 
     .gap {
@@ -87,6 +89,11 @@ body, html {
     
     .markdown {
         background: $grey-light;
+
+        li {
+            padding-left: 10px;
+            margin-left: 20px;
+        }
 
         &-input {
             width: 100%;
