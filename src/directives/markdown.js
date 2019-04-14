@@ -50,6 +50,7 @@ const rules = [
     }],
     
     //strip p from pre
+    // [/(<pre.+>)\s*\n<p>(.+)<\/p>/gm, '$1$2'],
     [/(<pre.+>)\s*\n<p>(.+)<\/p>/gm, '$1$2'],
 
     [/\n\n/g, '<br>'],
